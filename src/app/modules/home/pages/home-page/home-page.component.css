@@ -1,0 +1,5 @@
+ /* Aplica Estilos solo al componente del bloque */
+
+*{
+  background-color: aqua;
+}

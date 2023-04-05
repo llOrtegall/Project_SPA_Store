@@ -1,0 +1,33 @@
+section {
+  background-color: aqua;
+  margin-top: 0.6rem;
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  display: flex;
+  align-items: center
+}
+img{
+  width: 2.5rem;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 .6rem 0 0;
+}
+
+a{
+  padding-right: 0.6rem;
+  border-right: 2px solid grey;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+a:hover{
+  color: rgb(230, 12, 219);
+}
