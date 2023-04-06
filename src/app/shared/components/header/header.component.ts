@@ -26,17 +26,17 @@ export class HeaderComponent implements OnInit {
       {
         name: 'Products',
         icon: 'local_mall',
-        router: ['/']
+        router: ['/products']
       },
       {
         name: 'Contacts',
         icon: 'call',
-        router: ['/']
+        router: ['/contact']
       },
       {
         name: 'Login',
         icon: 'login',
-        router: ['/']
+        router: ['/auth']
       },
     ]
   }

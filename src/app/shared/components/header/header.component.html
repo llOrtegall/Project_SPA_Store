@@ -3,9 +3,10 @@
   <nav>
     <ul>
       <li *ngFor="let item of linksMenu.defaultOptions">
-        <a href="#"> {{item.name}}
+        <a href="" [routerLink]="item.router"> {{item.name}}
           <span class="material-symbols-outlined">{{item.icon}}</span>
         </a>
+      </li>
     </ul>
   </nav>
 </section>

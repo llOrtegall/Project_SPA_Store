@@ -2,7 +2,7 @@ section{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
   background-color: aqua;
 }
 img{
@@ -18,10 +18,11 @@ a{
   align-items: center;
   font-size: 1.2rem;
   font-weight: bold;
-  padding-right: 0.8rem;
+  padding-left: 0.9rem;
 }
 
 a:hover{
+  cursor: pointer;
   color: rgb(224, 17, 214);
 }
 span{
