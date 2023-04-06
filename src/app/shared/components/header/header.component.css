@@ -1,33 +1,35 @@
-section {
-  background-color: aqua;
-  margin-top: 0.6rem;
+section{
   display: flex;
   justify-content: space-around;
-}
-nav {
-  display: flex;
-  align-items: center
+  align-items: center;
+  margin-top: 0.5rem;
+  background-color: aqua;
 }
 img{
-  width: 2.5rem;
+  width: 1.8rem;
 }
-ul {
+ul{
   display: flex;
-  justify-content: center;
-}
-
-li {
-  margin: 0 .6rem 0 0;
 }
 
 a{
-  padding-right: 0.6rem;
-  border-right: 2px solid grey;
   color: black;
-  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
   font-weight: bold;
+  padding-right: 0.8rem;
 }
 
 a:hover{
-  color: rgb(230, 12, 219);
+  color: rgb(224, 17, 214);
+}
+span{
+  font-size: 1rem;
+}
+
+@media (max-width: 426px) {
+  span{
+    display: none;
+  }
 }

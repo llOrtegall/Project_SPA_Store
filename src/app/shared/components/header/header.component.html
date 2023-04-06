@@ -2,10 +2,10 @@
   <img src="assets/logo.svg" alt="logo">
   <nav>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Login</a></li>
+      <li *ngFor="let item of linksMenu.defaultOptions">
+        <a href="#"> {{item.name}}
+          <span class="material-symbols-outlined">{{item.icon}}</span>
+        </a>
     </ul>
   </nav>
 </section>

@@ -1,18 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomePageComponent } from '@modules/home/pages/home-page/home-page.component';
 
 const routes: Routes = [
   {
-    path: '',//Hace referencia al localHost //aplicaremos lazy loading
+    path: 'auth',
     loadChildren: () => import(`./modules/auth/auth.module`).then(m => m.AuthModule) //Dynamic Import
   },
   {
-    path: 'home',
+    path: '',//Hace referencia al localHost //aplicaremos lazy loading
+    component:HomePageComponent,
     loadChildren:() => import(`./modules/home/home.module`).then(m => m.HomeModule)
-  },
-  {
-    path: 'products',
-    loadChildren:() => import(`./modules/products/products.module`).then(m => m.ProductsModule)
   }
 ];
 
