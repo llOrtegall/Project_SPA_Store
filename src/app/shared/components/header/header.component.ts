@@ -19,17 +19,17 @@ export class HeaderComponent implements OnInit {
 
     this.linksMenu.defaultOptions = [
       {
-        name: 'Home',
+        name: 'Inicio',
         icon: 'home', // Nombre del icono de google para visualizarlo
-        router: ['/']
+        router: ['/inicio']
       },
       {
-        name: 'Products',
+        name: 'Productos',
         icon: 'local_mall',
         router: ['/products']
       },
       {
-        name: 'Contacts',
+        name: 'Contacto',
         icon: 'call',
         router: ['/contact']
       },

@@ -1,36 +1,40 @@
-section{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 0.2rem;
-  background-color: aqua;
-}
-img{
-  width: 1.8rem;
-}
-ul{
-  display: flex;
-}
 
-a{
-  color: black;
-  display: flex;
-  align-items: center;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding-left: 0.9rem;
-}
-
-a:hover{
-  cursor: pointer;
-  color: rgb(224, 17, 214);
-}
-span{
-  font-size: 1rem;
-}
 
 @media (max-width: 426px) {
   span{
     display: none;
+  }
+
+  section{
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    background-color: rgb(191, 195, 197);
+  }
+  img{
+    width: 4rem;
+  }
+  ul{
+    display: flex;
+  }
+
+  a{
+    color: rgb(7, 7, 7);
+    text-shadow: 1px 1px 1px rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  a:hover{
+    cursor: pointer;
+    color: rgb(211, 27, 228);
+  }
+  span{
+    font-size: 1rem;
   }
 }
