@@ -4,20 +4,23 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { CartShopComponent } from './components/cart-shop/cart-shop.component';
 import { RouterModule } from '@angular/router';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    CartShopComponent
+    CartShopComponent,
+    CarouselComponent
   ],
   imports: [
     CommonModule,
     RouterModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    CarouselComponent
   ]
 })
 export class SharedModule { }
