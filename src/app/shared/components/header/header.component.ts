@@ -7,11 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  linksMenu: {
-    defaultOptions: Array<any>
-  } = { defaultOptions: [] }
+  linksMenu: {defaultOptions: Array<any>}
+  = { defaultOptions: [] }
 
-  customOptions: Array<any> = []
+
 
   constructor() { }
 
@@ -37,7 +36,7 @@ export class HeaderComponent implements OnInit {
         name: 'Login',
         icon: 'login',
         router: ['/auth']
-      },
+      }
     ]
   }
 
