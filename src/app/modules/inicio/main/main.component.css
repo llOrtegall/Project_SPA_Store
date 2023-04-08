@@ -1,28 +1,5 @@
-
-.main_home{
+.description{
   display: flex;
-  flex-direction: column;
-}
-
-figure img {
-  width: 100%;
-}
-
-.container_main{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-
-.container_main h3{
-  margin-top: 1rem;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-article{
-  margin-top: 2rem;
-  padding: 0 1rem 0 1rem;
-  justify-content: center;
-  text-align: justify;
+  text-align: center;
 }
