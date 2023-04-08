@@ -1,1 +1,82 @@
-<p>login works!</p>
+<section class="container w-100 mt-5 shadow">
+  <div class="row align-items-stretch">
+
+    <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
+    </div>
+
+    <div class="col bg-white p-5 rounded-end">
+      <div class="text-end">
+        <img src="/assets/logo2.png" alt="logo" width="48">
+      </div>
+      <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+
+      <!--LOGIN -->
+
+      <form action="#">
+
+        <div class="mb-4">
+          <label for="email" class="form-label">Email / Username</label>
+          <input type="email" class="form-control" name="email" placeholder="example@example.com ">
+        </div>
+        <div class="mb-4">
+          <label for="password" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" name="email" placeholder="password">
+        </div>
+
+        <div class="mb-4 form-check">
+          <input name="connected" type="checkbox" placeholder="-" class="form-check-input">
+          <label for="connected" class="form-check-label"> Mantenerme Conectado</label>
+        </div>
+
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary">Iniciar Session</button>
+        </div>
+
+        <div class="my-3">
+          <span> No Tienes Cuenta: <a href="#">Resgístrarse</a> <br> Olvido Contraseña: <a href="#">Recuperar
+              password</a></span>
+        </div>
+      </form>
+
+      <!-- LOGIN Con Redes Sociales -->
+
+      <div class="container w-100 my-5">
+        <div class="row text-center">
+          <div class="col-12">
+            Iniciar Sessión Con:
+          </div>
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-outline-danger w-100 my-1">
+                <div class="row align-items-center">
+                  <div class="col-2 d-none d-md-block">
+                    <img src="/assets/google.svg" width="25rem" alt="logoGogle">
+                  </div>
+                  <div class="col-12 col-md-10 text-center">
+                    Google
+                  </div>
+                </div>
+
+              </button>
+            </div>
+
+            <div class="col">
+              <button class="btn btn-outline-primary w-100 my-1">
+                <div class="row align-items-center">
+                  <div class="col-2 d-none d-md-block">
+                    <img src="/assets/facebook.svg" width="25rem" alt="logoFaceook">
+                  </div>
+                  <div class="col-12 col-md-10 text-center">
+                    Facebook
+                  </div>
+                </div>
+
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
