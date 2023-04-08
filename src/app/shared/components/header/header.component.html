@@ -1,12 +1,32 @@
 <section>
-  <img src="assets/logo2.png" alt="logo">
-  <nav>
-    <ul>
-      <li *ngFor="let item of linksMenu.defaultOptions">
-        <a href="" [routerLink]="item.router"> {{item.name}}
-          <span class="material-symbols-outlined">{{item.icon}}</span>
-        </a>
-      </li>
-    </ul>
+  <nav class="navbar navbar-expand-md bg-warning">
+
+    <div class="container-fluid">
+
+      <div class="propertieslogo">
+        <img class="img_logo" src="/assets/logo2.png" alt="logo">
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+          <li class="navegacion_main" *ngFor="let item of linksMenu.defaultOptions" [routerLink]="item.router">
+            <p>{{item.name}}</p>
+            <span class="material-symbols-outlined">{{item.icon}}</span>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Busqueda</button>
+        </form>
+
+      </div>
+    </div>
   </nav>
 </section>

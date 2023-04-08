@@ -1,40 +1,31 @@
+.img_logo {
+  width: 3rem;
+}
 
+.propertieslogo {
+  margin-right: 3rem;
+}
 
-@media (max-width: 426px) {
-  span{
-    display: none;
-  }
+.navegacion_main:hover{
+  cursor: pointer;
+  color: blueviolet;
+  text-shadow: 1px 1px white;
+}
 
-  section{
-    height: 4rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 0;
-    background-color: rgb(191, 195, 197);
-  }
-  img{
-    width: 4rem;
-  }
-  ul{
-    display: flex;
-  }
+.navegacion_main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: center;
+}
 
-  a{
-    color: rgb(7, 7, 7);
-    text-shadow: 1px 1px 1px rgb(241, 241, 241);
-    display: flex;
-    align-items: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 0 0.5rem 0 0.5rem;
-  }
+.navegacion_main p {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-left: 1rem;
+}
 
-  a:hover{
-    cursor: pointer;
-    color: rgb(211, 27, 228);
-  }
-  span{
-    font-size: 1rem;
-  }
+.navegacion_main span {
+  font-size: 1.5rem;
 }
