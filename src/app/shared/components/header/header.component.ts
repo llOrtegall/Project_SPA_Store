@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  linksMenu: {defaultOptions: Array<any>}
-  = { defaultOptions: [] }
+  linksMenu: { defaultOptions: Array<any> }
+    = { defaultOptions: [] }
 
 
 

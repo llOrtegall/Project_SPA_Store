@@ -20,7 +20,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
   ],
   exports: [
     HeaderComponent,
-    CarouselComponent
+    CarouselComponent,
+    CartShopComponent
   ]
 })
 export class SharedModule { }
