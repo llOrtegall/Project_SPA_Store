@@ -1,1 +1,38 @@
-<h3>cart Works</h3>
+<div class="container-fluid">
+
+  <!-- Quiero intentar estableces con Ng For la autogeneración de los
+        el cual lo hare mediante objectos parametros de acuerdo a los items que ingresan al mismo -->
+  <div class="row d-flex" >
+
+    <div class="colum container-fluid d-flex flex-row">
+      <div class="container-fluid">
+        <h5>Imagen</h5>
+      </div>
+      <div class="container-fluid">
+        <h5>Descripción</h5>
+      </div>
+      <div class="container-fluid">
+        <h5>Cantidad</h5>
+      </div>
+      <div class="container-fluid">
+        <h5>Precio</h5>
+      </div>
+    </div>
+
+    <div class="colum container-fluid d-flex flex-row" *ngFor="let product of itemsCart.cartItems">
+      <div class="container-fluid">
+        <img src="{{product.img}}" alt="foto">
+      </div>
+      <div class="container-fluid">
+        <p>{{product.descripcion}}</p>
+      </div>
+      <div class="container-fluid">
+        <p>{{product.cantidad}}</p>
+      </div>
+      <div class="container-fluid">
+        <p>{{product.precio}}</p>
+      </div>
+    </div>
+
+
+  </div>
