@@ -1,8 +1,8 @@
 <div class="container-fluid">
 
-  <!-- Quiero intentar estableces con Ng For la autogeneración de los
+  <!-- Quiero intentar establecer con Ng For la autogeneración de los
         el cual lo hare mediante objectos parametros de acuerdo a los items que ingresan al mismo -->
-  <div class="row d-flex" >
+  <div class="row d-flex">
 
     <div class="colum container-fluid d-flex flex-row">
       <div class="container-fluid">
@@ -19,17 +19,18 @@
       </div>
     </div>
 
-    <div class="colum container-fluid d-flex flex-row" *ngFor="let product of itemsCart.cartItems">
-      <div class="container-fluid">
+    <div class="colum container-fluid d-flex flex-row"
+      *ngFor="let product of itemsCart.cartItems">
+      <div class="container-fluid product_items">
         <img src="{{product.img}}" alt="foto">
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid product_items">
         <p>{{product.descripcion}}</p>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid product_items">
         <p>{{product.cantidad}}</p>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid product_items">
         <p>{{product.precio}}</p>
       </div>
     </div>
