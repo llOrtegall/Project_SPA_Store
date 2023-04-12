@@ -8,8 +8,8 @@
 
 .navegacion_main:hover {
   cursor: pointer;
-  color: rgb(225, 103, 236);
-  text-shadow: 1px 1px rgb(0, 0, 0);
+  color: rgb(215, 121, 223);
+  text-shadow: 1px 1px rgb(255, 255, 255);
 }
 
 .navegacion_main {
@@ -17,7 +17,7 @@
   flex-direction: row;
   margin-top: 1rem;
   justify-content: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .navegacion_main p {
