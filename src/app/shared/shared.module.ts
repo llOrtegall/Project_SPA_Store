@@ -5,6 +5,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { CartShopComponent } from './components/cart-shop/cart-shop.component';
 import { RouterModule } from '@angular/router';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -12,7 +13,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
   declarations: [
     HeaderComponent,
     CartShopComponent,
-    CarouselComponent
+    CarouselComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +23,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
   exports: [
     HeaderComponent,
     CarouselComponent,
-    CartShopComponent
+    CartShopComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }
