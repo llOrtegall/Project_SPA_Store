@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MainPageComponent } from './main-page/main-page.component';
 
 const routes: Routes = [
   {
-    path: 'home',
-    component: MainPageComponent
+    path: 'about',
+    loadChildren: () => import(`../about-us/about-us.module`).then( m => m.AboutUsModule),
   }
 ];
 
