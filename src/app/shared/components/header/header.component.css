@@ -23,13 +23,25 @@ li {
 }
 
 a {
-  @apply text-xl text-yellow-200 font-medium text-center items-center;
+  @apply text-xl text-yellow-400 font-medium text-center items-center;
 }
 
 .socialRed {
-  @apply flex flex-row;
+  @apply flex flex-row mr-0 ml-0;
 }
 
-i{
-  @apply text-white text-2xl mr-2 ml-2
+.socialRed div {
+  @apply cursor-pointer;
+}
+
+.socialRed li {
+  @apply flex flex-row mr-0 ml-0;
+}
+
+.socialRed i {
+  @apply text-3xl;
+}
+
+i {
+  @apply text-white text-2xl;
 }
