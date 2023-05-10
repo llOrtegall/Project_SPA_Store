@@ -8,28 +8,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  accesLinks: Array<any> = [];
-
   constructor(private router: Router) {}
-  ngOnInit(): void {
-    this.accesLinks = [
-      {
-        title: 'Home',
-        router: ["/"]
-      },
-      { 
-        title: 'Contact',
-        router: ['/contact']
-      },
-      { 
-        title: 'Products',
-        router: ['/products']
-      },
-      { 
-        title: 'About Us',
-        router: ['/about']
-      }
-    ]
-  }
+  ngOnInit(): void {}
 
 }
