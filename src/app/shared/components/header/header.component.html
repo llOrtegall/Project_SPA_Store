@@ -1,1 +1,12 @@
-<p>header works!</p>
+<header class="w-screen min-h-min">
+  <nav class="flex justify-between bg-gray-300 items-center">
+    <i class="uil uil-chart-pie-alt"></i>
+    <i class="uil uil-bars"></i>
+
+    <ul class="absolute top-14 right-0">
+      <li *ngFor="let item of navLinks">
+        <a>{{ item.title }}</a>
+      </li>
+    </ul>
+  </nav>
+</header>
