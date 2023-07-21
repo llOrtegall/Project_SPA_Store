@@ -1,11 +1,16 @@
+import './Header.css'
+
 export const Header = () => {
   return (
-    <nav>
-      <ul className="flex justify-between p-4">
-        <li><a href="">Home</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href=""></a>About</li>
-        <li><a href="">Login</a></li>
+    <nav className="navMain">
+      <figure>
+        <img className='logo' src=".\src\assets\casa.png" alt="foto" width={38} />
+      </figure>
+      <ul className="flex gap-6 items-center">
+        <li><a href="#" className="listNav">Home</a></li>
+        <li><a href="#" className="listNav">About</a></li>
+        <li><a href="#" className="listNav">Contact</a></li>
+        <li><a href="#" className="listNav">Login</a></li>
       </ul>
     </nav>
   )
